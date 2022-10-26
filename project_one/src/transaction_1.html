@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Add Payment</title>
+<title>Add Transaction</title>
 
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet"
@@ -10,15 +10,14 @@
 </head>
 
 
-<nav class="purple lighten-1" role="navigation">
+<nav class=" purple lighten-1" role="navigation">
 	<div class="nav-wrapper container">
 		<a id="logo-container" href="#" class="brand-logo">Logo</a>
 		<ul class="right hide-on-med-and-down">
 			<li><a href="index.html">Client</a></li>
-			<li><a href="3.html">Credit Card</a></li>
+			<li><a href="credit_card.html">Credit Card</a></li>
 			<li><a href="bank_account.html">Bank Account</a></li>
-			<li><a href="Payment.html">Payment</a></li>
-			<li><a href="Admin.html">Admin</a></li>
+			<li><a href="transaction.html">Transaction</a></li>
 		</ul>
 	</div>
 </nav>
@@ -26,31 +25,39 @@
 
 <div class="section no-pad-bot" id="index-banner">
 	<div class="container">
-		<h1>Add Payment</h1>
+		<h1>Add Transaction</h1>
 
 
 		<div class="row">
 			<form class="col s12">
 				<div class="row">
-					<div class="input-field col s6">
-						<input id="Org_code" type="text"
-							class="validate"> <label for="Org_code">Org_code</label>
+					<div class="input-field col s12">
+						<input id="Name" type="text"
+							class="validate"> <label for="Name">Amount</label>
 					</div>
-					<div class="input-field col s6">
-						<input id="Name" type="text" class="validate"> <label
-							for="Name">Name</label>
+					<div class="input-field col s12">
+						<input id="Currency" type="text" class="validate"> <label
+							for="Currency">Currency</label>
 					</div>
-					<div class="input-field col s6">
-						<input id="Address" type="text" class="validate"> <label
-							for="Address">Address</label>
-					</div>
-					<div class="input-field col s6">
-						<input id="Sum" type="text" class="validate"> <label
-							for="Sum">Sum</label>
-					</div>
-					<div></div>
 				</div>
-				
+				<div class="row">
+					<div class="input-field col s12">
+						<input  id="Type" type="text" class="validate"> <label 
+						for="Type">Type</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="Date" type="password" class="validate"> <label
+							for="Date">Date</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="Comment" type="password" class="validate"> <label
+							for="Comment">Comment</label>
+							<div></div>
+					</div>
 				</div>
 					</div>
 				</div>
@@ -59,7 +66,6 @@
 
 	</div>
 </div>
-
 <!-- Compiled and minified JavaScript -->
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
